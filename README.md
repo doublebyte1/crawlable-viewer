@@ -28,3 +28,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+
+If you want to deploy it on github pages, replace
+
+  `homepage": "."`
+
+  by:
+  
+  `homepage": "https://doublebyte1.github.io/crawlable-viewer"`
