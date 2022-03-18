@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/crawlable-viewer/static/css/main.073c9b0a.css",
+    "main.js": "/crawlable-viewer/static/js/main.039623af.js",
+    "index.html": "/crawlable-viewer/index.html",
+    "main.073c9b0a.css.map": "/crawlable-viewer/static/css/main.073c9b0a.css.map",
+    "main.039623af.js.map": "/crawlable-viewer/static/js/main.039623af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.039623af.js"
+  ]
+}
