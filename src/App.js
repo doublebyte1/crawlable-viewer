@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 //const url="http://localhost:9000/crawlable_catalogue/";
-
+let ignore = false;
 const location= window.location.href;
 const url = location.split("web/index.html")[0];
 
@@ -13,7 +13,6 @@ function App() {
    console.log(url);
 
   useEffect(() => {
-    let ignore = false;
 
     async function fetchData() {
       const result = await axios( url + "collections.json");
