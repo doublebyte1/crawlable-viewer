@@ -56,10 +56,10 @@ function App() {
 
         </div>
 
-      <br></br>
+      {/* <br></br>
         <footer className="mt-auto">
           <a href="https://byteroad.net">&copy; ByteRoad 2022</a>
-        </footer>
+        </footer> */}
 
       </div> 
 
