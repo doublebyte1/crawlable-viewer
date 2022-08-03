@@ -36,3 +36,7 @@ If you want to deploy it on github pages, replace
   by:
   
   `homepage": "https://doublebyte1.github.io/crawlable-viewer"`
+
+Deploy changes in github pages with:
+
+`git subtree push --prefix dist origin gh-pages`
