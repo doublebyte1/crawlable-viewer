@@ -5,7 +5,7 @@ import axios from 'axios';
 //const url="http://localhost:9000/crawlable_catalogue/";
 
 const location= window.location.href;
-const url = location.split("web")[0];
+const url = location.split("web/index.html")[0];
 
 function App() {
   const [data, setData] = useState({ links: [] });
