@@ -39,4 +39,4 @@ If you want to deploy it on github pages, replace
 
 Deploy changes in github pages with:
 
-`git subtree push --prefix dist origin gh-pages`
+`git subtree push --prefix build origin gh-pages`
