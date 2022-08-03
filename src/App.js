@@ -2,14 +2,15 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const url="http://localhost:9000/crawlable_catalogue/";
+//const url="http://localhost:9000/crawlable_catalogue/";
 
-
+const location= window.location.href;
+const url = location.split("web")[0];
 
 function App() {
   const [data, setData] = useState({ links: [] });
 
-   console.log(window.location.href);
+   console.log(url);
 
   useEffect(() => {
     let ignore = false;
